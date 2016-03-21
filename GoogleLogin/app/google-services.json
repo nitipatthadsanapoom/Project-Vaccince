@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_id": "bright-coyote-124208",
+    "project_number": "347582363624",
+    "name": "GooglePlusLogin"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347582363624:android:fffd4465d88715b6",
+        "client_id": "android:com.thadsanapoom.nitipat.googlelogin",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.thadsanapoom.nitipat.googlelogin",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347582363624-v4qj5fng2u87itvknfe4v1joqeoakr13.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thadsanapoom.nitipat.googlelogin",
+            "certificate_hash": "21A30C94FB21F4340953333D69F59D19B5F6A1DA"
+          }
+        },
+        {
+          "client_id": "347582363624-e2rdarv323lo8ml70r4k196qo7jeruh4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FF80AB">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/add_user_title"
+        android:textSize="18sp"
+        android:id="@+id/title"/>
+
+    <EditText
+        android:id="@+id/add_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/add_user_name_hint"
+        android:layout_below="@+id/title"
+        android:inputType="text">
+    </EditText>
+
+    <EditText
+        android:id="@+id/add_lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_user_lastname_hint"
+        android:layout_below="@+id/add_name"/>
+    <EditText
+        android:id="@+id/add_birthday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_user_birthday_hint"
+        android:layout_below="@+id/add_lastname"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tvadd_gender"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@id/add_birthday"/>
+
+    <!--  Spinner Test-->
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/add_birthday"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/add_weightt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_user_weight_hint"
+        android:layout_below="@+id/spinner"
+        android:layout_alignParentStart="true"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/add_lenght"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/add_user_lenght_hint"
+        android:layout_below="@+id/add_weightt"
+        android:layout_alignParentStart="true"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/tvadd_bloodtyp"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <EditText
+        android:id="@+id/add_bloodtype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_user_bloodtype_hint"
+        android:layout_below="@+id/add_lenght"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/add_allergic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/add_user_allergic_hint"
+        android:layout_below="@+id/add_bloodtype"
+        android:layout_alignParentStart="true" />
+
+
+    <RelativeLayout
+        android:id="@+id/add_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/add_allergic">
+        <Button
+            android:id="@+id/add_save_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_user_btn_label"
+
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/update_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/add_allergic"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/update_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/save_updates_btn_label" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
